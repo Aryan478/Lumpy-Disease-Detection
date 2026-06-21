@@ -35,16 +35,27 @@ A deep learning-based cattle disease detection system that identifies **Lumpy Sk
 ---
 
 ## 📁 Project Structure
-LumpyDiseaseProject/
 
-├── backend/
-│   ├── main.py            # FastAPI app 
-│   ├── predict.py         # Standalone
-│   └── uploads/           # Uploaded
-├── frontend/
-│   ├── src/                # React
-│   └── public/
-└── test_images/            # Sample
+```text
+LumpyDiseaseProject
+│
+├── backend
+│   ├── main.py                 # FastAPI application
+│   ├── predict.py              # Standalone prediction script
+│   ├── uploads/                # Uploaded images
+│   └── lumpy_disease_final.keras
+│
+├── frontend
+│   ├── public/
+│   ├── src/
+│   ├── package.json
+│   └── vite.config.js
+│
+├── test_images/                # Sample images
+├── README.md
+└── .gitignore
+```
+
 
 ---
 
